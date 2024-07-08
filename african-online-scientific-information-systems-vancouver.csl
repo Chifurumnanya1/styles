@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-GB">
   <info>
-    <title>African Online Scientific Information Systems - Vancouver</title>
+    <title>African Online Scientific Information Systems - Vancouver - WACP</title>
     <title-short>AOSIS</title-short>
     <id>http://www.zotero.org/styles/african-online-scientific-information-systems-vancouver</id>
     <link href="http://www.zotero.org/styles/african-online-scientific-information-systems-vancouver" rel="self"/>
@@ -71,7 +71,7 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group suffix=" ">
-          <text variable="container-title" form="short" strip-periods="true"/>
+          <text variable="container-title" form="short" font-style="italic" strip-periods="true"/>
           <choose>
             <if variable="URL">
               <text term="internet" prefix=" [" suffix="]"/>
